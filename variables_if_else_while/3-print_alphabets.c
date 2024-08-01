@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet lowercase and uppercase.
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
@@ -14,6 +14,6 @@ int main (void)
 	{
 		putchar(alp[i]);
 	}
-	putchar('n');
+	putchar('\n');
 	return (0);
 }
